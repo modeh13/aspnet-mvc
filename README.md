@@ -1,6 +1,5 @@
 # ASP.NET MVC Projects
 This contains some ASP.NET MVC projects developed with .Net Framework as learning.
-
 [![Build Status](https://travis-ci.com/modeh13/aspnet-mvc.svg?branch=master)](https://travis-ci.com/modeh13/aspnet-mvc)
 
 - **WebSanaAssessment:**
