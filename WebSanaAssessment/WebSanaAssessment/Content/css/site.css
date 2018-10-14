@@ -63,6 +63,6 @@ hr {
       left: 46%;
       width: 64px;
       height: 64px;
-      background-image: url('../img/loading.gif');
+      background-image: url('/Content/img/loading.gif');
       background-size: 100%;
    }
