@@ -181,6 +181,7 @@
     <Content Include="Content\css\dataTable\responsive.bootstrap4.min.css" />
     <Content Include="Content\css\pnotify.custom.min.css" />
     <Content Include="Content\img\banner.png" />
+    <Content Include="Content\img\loading.gif" />
     <Content Include="Content\img\logo.png" />
     <Content Include="Content\css\site.css" />
     <Content Include="favicon.ico" />
@@ -213,6 +214,7 @@
     <Content Include="Scripts\jquery\jquery-3.3.1.min.map" />
     <Content Include="Scripts\jquery\jquery-3.3.1.slim.min.map" />
     <Content Include="Files\Csv\Products.csv" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
     <None Include="Scripts\jquery\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery\jquery-3.3.1.js" />

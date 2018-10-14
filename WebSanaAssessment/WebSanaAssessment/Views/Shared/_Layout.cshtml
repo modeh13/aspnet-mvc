@@ -32,6 +32,11 @@
       </div>
    </header>
 
+   <!-- Activity Indicator -->
+   <div id='dv-loading'>
+      <div id='img-dv-loading' title='Loading'></div>
+   </div> 
+
    <!-- CONTENT -->
    <div id="main-content">
       @RenderBody()
@@ -61,6 +66,16 @@
    @Scripts.Render("~/bundles/bootstrap")
    @Scripts.Render("~/bundles/dataTable")
    @Scripts.Render("~/bundles/site")
-   @RenderSection("scripts", required: false)   
+   @RenderSection("scripts", required: false)
+
+   <script type="text/javascript">
+      $(document).ajaxStart(function () {
+         $("#dv-loading").show();
+      });
+
+      $(document).ajaxStop(function () {
+         $("#dv-loading").hide();
+      });
+   </script>
 </body>
 </html>

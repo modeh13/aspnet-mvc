@@ -41,3 +41,28 @@ hr {
    border: 0;
    border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
+
+#dv-loading {
+   display: none;
+   position: fixed;
+   text-align: center;
+   height: 100%;
+   width: 100%;
+   top: 0;
+   right: 0;
+   left: 0;
+   z-index: 9999999;
+   background-color: #000000;
+   opacity: 0.8;
+}
+
+   #dv-loading #img-dv-loading {
+      padding: 10px;
+      position: fixed;
+      top: 46%;
+      left: 46%;
+      width: 64px;
+      height: 64px;
+      background-image: url('../img/loading.gif');
+      background-size: 100%;
+   }

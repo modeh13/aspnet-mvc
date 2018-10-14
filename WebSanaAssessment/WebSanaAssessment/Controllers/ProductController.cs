@@ -2,7 +2,6 @@
 using System.Configuration;
 using System.Linq;
 using System.Net;
-using System.Net.Http;
 using System.Web.Hosting;
 using System.Web.Mvc;
 using System.Xml;
