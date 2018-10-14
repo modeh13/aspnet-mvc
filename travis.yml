@@ -1,0 +1,4 @@
+language: csharp
+solution: WebSanaAssessment.sln
+install:  
+  - nuget restore WebSanaAssessment.sln
