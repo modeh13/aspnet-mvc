@@ -1,5 +1,7 @@
 # ASP.NET MVC Projects
 
+<img src="https://i2.wp.com/altrastudios.com/wp-content/uploads/2018/08/ASP.NET-MVC-Logo.png" alt="ASP.NET MVC" />
+
 [![Build Status](https://travis-ci.com/modeh13/aspnet-mvc.svg?branch=master)](https://travis-ci.com/modeh13/aspnet-mvc)
 
 This contains some ASP.NET MVC projects developed with .Net Framework as learning.
